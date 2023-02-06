@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(hsl(213, 20%, 15%), hsl(213, 20%, 12%));
+    max-width: 425px;
+    min-height: 425px;
+    padding: 35px;
+    border-radius: 30px;
+}
+
+.image-box {
+    background-color: hsl(213, 19%, 18%);
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.icon {
+    background-color: hsl(213, 19%, 18%);
+    box-sizing: initial;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-bottom: 0px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.8em;
+    color: white;
+    margin: 25px 0px 15px 0px;
+}
+
+.text {
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+}
+
+.number {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    width: 55px;
+    height: 55px;
+    padding: 16px;
+    border-radius: 100%;
+    border-style: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.number:hover {
+    cursor: pointer;
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
