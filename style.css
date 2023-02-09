@@ -23,6 +23,16 @@ body {
     border-radius: 30px;
 }
 
+#thankyou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#thankyou-image {
+    width: 175px;
+}
+
 .image-box {
     background-color: hsl(213, 19%, 18%);
     width: 55px;
