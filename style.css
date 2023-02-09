@@ -27,10 +27,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
 }
 
 #thankyou-image {
     width: 175px;
+    margin-bottom: 30px;
+}
+#thankyou-text {text-align: center;}
+
+div span {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    background-color: hsl(213, 19%, 18%);
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    padding-top: 2px;
+    margin-bottom: 15px;
+}
+
+span {
+    color: hsl(25, 97%, 53%);
 }
 
 .image-box {
