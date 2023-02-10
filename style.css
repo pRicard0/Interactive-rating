@@ -24,24 +24,6 @@ body {
     display: none;
 }
 
-#thankyou {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-    display: none;
-}
-
-.active {
-    display: block;
-}
-
-#thankyou-image {
-    width: 175px;
-    margin-bottom: 30px;
-}
-#thankyou-text {text-align: center;}
-
 div span {
     display: flex;
     align-items: center;
@@ -115,6 +97,13 @@ span {
     background-color: hsl(217, 12%, 63%);
 }
 
+.number-selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.number-selected:hover {background-color: hsl(25, 97%, 53%);}
+
 button {
     width: 100%;
     height: 50px;
@@ -135,3 +124,20 @@ button:hover {
     color: hsl(25, 97%, 53%);
     cursor: pointer;
 }
+
+.visible {
+    display: block;
+}
+
+.thx-visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#thankyou-image {
+    width: 175px;
+    margin-bottom: 30px;
+}
+#thankyou-text {text-align: center;}
