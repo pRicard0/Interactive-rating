@@ -37,10 +37,6 @@ div #selected-text {
     margin-bottom: 15px;
 }
 
-#selected-text {
-    color: hsl(25, 97%, 53%);
-}
-
 .image-box {
     background-color: hsl(213, 19%, 18%);
     width: 55px;
@@ -70,6 +66,7 @@ div #selected-text {
 .text {
     font-weight: 400;
     color: hsl(217, 12%, 63%);
+    line-height: 25px;
 }
 
 .numbers {
@@ -139,8 +136,17 @@ button:hover {
 
 #thankyou-image {
     width: 175px;
-    margin: 20px 0px 30px 0px;
+    margin: 15px 0px 30px 0px;
 }
+
+#selected-text {
+    color: hsl(25, 97%, 53%);
+}
+
+#thankyou .title {
+    margin-top: 15px;
+}
+
 #thankyou-text {text-align: center;}
 
 .modal {
