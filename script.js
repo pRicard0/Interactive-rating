@@ -2,6 +2,8 @@ const submit = document.querySelector('button');
 const main = document.querySelector('#main');
 const thxSection = document.querySelector('#thankyou');
 const numbers = document.querySelectorAll('.number');
+const modal = document.querySelector('.modal')
+const closeButton = document.querySelector('.close-button')
 let text = document.querySelector('#selected-text');
 let numberClicked = false;
 
@@ -21,5 +23,12 @@ submit.addEventListener('click', function() {
         thxSection.classList.add('thx-visible');
         main.classList.remove('visible');
     }
+    else {
+        modal.classList.remove('hidden')
+    }
+});
+
+closeButton.addEventListener('click', function() {
+    modal.classList.add('hidden');
 });
 
