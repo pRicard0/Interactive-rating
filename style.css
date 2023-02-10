@@ -21,6 +21,7 @@ body {
     min-height: 425px;
     padding: 35px;
     border-radius: 30px;
+    display: none;
 }
 
 #thankyou {
@@ -28,6 +29,11 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    display: none;
+}
+
+.active {
+    display: block;
 }
 
 #thankyou-image {
