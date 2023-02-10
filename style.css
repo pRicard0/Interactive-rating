@@ -24,7 +24,7 @@ body {
     display: none;
 }
 
-div span {
+div #selected-text {
     display: flex;
     align-items: center;
     border-radius: 16px;
@@ -37,7 +37,7 @@ div span {
     margin-bottom: 15px;
 }
 
-span {
+#selected-text {
     color: hsl(25, 97%, 53%);
 }
 
@@ -148,14 +148,17 @@ button:hover {
     width: 100vw;
     top: 0;
     left: 0;
-    background-color: rgba(52, 52, 50, 0.750);
-    opacity: 0;
-    visibility: hidden;
+    background-color: rgba(10, 10, 10, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-content {
-    background-color: linear-gradient(hsl(213, 20%, 15%), hsl(213, 20%, 12%));
+    background-color: hsl(213, 20%, 15%);
     border: 1px solid black;
     padding: 20px;
     text-align: center;
+    border-radius: 20px;
 }
+
