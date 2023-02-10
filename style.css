@@ -141,3 +141,21 @@ button:hover {
     margin-bottom: 30px;
 }
 #thankyou-text {text-align: center;}
+
+.modal {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.750);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-content {
+    background-color: linear-gradient(hsl(213, 20%, 15%), hsl(213, 20%, 12%));
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
