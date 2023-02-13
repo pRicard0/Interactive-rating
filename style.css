@@ -69,6 +69,52 @@ div #selected-text {
     line-height: 25px;
 }
 
+.visually-hidden {
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important; 
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+  }
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    margin: 15px 0px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 0;
+}
+
+input[type="radio"] + label {
+    font-size: 1.05rem;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="radio"] + label:is(:hover, :focus-visible) {
+    background: hsl(217, 12%, 63%);
+    color: white;
+}
+
+input[type="radio"]:checked + label {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
 button {
     width: 100%;
     height: 50px;
